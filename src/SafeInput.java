@@ -49,7 +49,7 @@ public class SafeInput
                 done = true;
             }else
             {
-                System.out.println("Invalid integer. Try again.");
+                System.out.println("Invalid double. Try again.");
                 pipe.nextLine();
             }
         }while(!done);
